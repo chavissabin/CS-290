@@ -1,0 +1,11 @@
+Deliverables:
+
+The address where we can access your EC2 machine. (This will be an IP address in the form of xxx.xxx.xxx.xxx:3000)
+
+
+A link to your GitHub repository where you have added OSU-CS290-Tester as a collaborator
+
+https://github.com/chavissabin/cs-290-example.git
+
+This repository should have at least 2 files added to it.
+

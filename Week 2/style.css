@@ -1,0 +1,35 @@
+/*Collaborated with Adina Edwards*/
+.outer_content{
+    background-color: pink;
+    position:relative;
+    left:  0;
+    width: 75%;   
+}
+#inner_content{
+    background-color: blue;
+    width: 75%;
+    position:relative; 
+    left:0; 
+    right:0;
+    margin:auto;
+    text-align: center;
+    color:deeppink;
+}
+tbody tr:nth-of-type(even){
+    background-color: aqua;
+}
+tbody tr:nth-of-type(odd){
+    background-color: greenyellow;
+}
+td{
+    border: solid;
+}
+th{
+    border: solid;
+}
+table{
+    border:solid;
+}
+section{
+    height:20px;
+}
