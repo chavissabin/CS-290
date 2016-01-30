@@ -1,0 +1,15 @@
+Lets make sure JavaScript is working.
+The unicode characters of your name are:
+67
+104
+97
+118
+105
+115
+32
+83
+97
+98
+105
+110
+Copy and paste these values for activity credit.
