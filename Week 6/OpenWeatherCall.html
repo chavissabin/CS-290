@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+	  var key  = "4463921e1800235230a5d5ee7b129ccb";
+      var req = new XMLHttpRequest();
+      req.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Corvallis,or&appid=fa7d80c48643dfadde2cced1b1be6ca1", true);
+	  req.addEventListener('load',function(){
+		if(req.status >= 200 && req.status < 400){
+			var response = JSON.parse(req.responseText);
+			console.log(response);
+		}
+		else{
+			console.log(request.statusText + "Error");
+		}
+	  });
+      req.send(null);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

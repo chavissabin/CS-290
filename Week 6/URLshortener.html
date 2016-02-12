@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var req = new XMLHttpRequest();
+      req.open("POST", "https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAh2sUzWPm-pRQCbgyZijqWcKGFcoXeK2o", false);
+      req.setRequestHeader('Content-Type', 'application/json');
+      req.send('{"longUrl":"http://www.oregonstate.edu"}');
+      console.log(JSON.parse(req.responseText));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
