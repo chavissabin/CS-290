@@ -1,0 +1,93 @@
+
+
+legend
+{
+	font-weight:	bold;
+}
+#submit
+{
+	border-top:		2px solid BlanchedAlmond;
+	border-left:		2px solid BlanchedAlmond;
+	border-right:		2px solid chocolate;
+	border-bottom:		2px solid chocolate;
+	padding:		10px 20px !important;
+	font-size:		14px !important;
+	background-color:	BurlyWood;
+	font-weight:		bold;
+	color:			darkred;
+	position:	relative;
+    left: 45%;
+}
+#submitForm
+{
+	background-color: lightgreen;
+	width:	50%;
+}
+
+#submitForm
+{
+	background-color: lightgreen;
+	width:	50%;
+}
+#responseForm
+{
+	display:		none;
+	background-color: lightgray;
+	width:	50%;
+}
+
+.second
+{
+	position: absolute;
+    left: 350px;
+}
+.third
+{
+	position: absolute;
+    left: 700px;
+}
+#backgroundInput
+{
+	min-height:	200px;
+}
+#background
+{
+	position: relative;
+	left:	14%;
+}
+#name
+{
+	position: absolute;
+    left: 100px;
+
+}
+#personality
+{
+	position: absolute;
+    left: 100px;
+
+}
+#species
+{
+	position: absolute;
+    left: 100px;
+
+}
+#homeWorld
+{
+	position: absolute;
+    left: 100px;
+
+}
+#skills
+{
+	position: absolute;
+    left: 75px;
+
+}
+#allegiance
+{
+	position: absolute;
+    left: 75px;
+
+}
